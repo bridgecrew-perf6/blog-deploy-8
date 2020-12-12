@@ -8,7 +8,19 @@ import ListItem from "./components/listItem";
 const IndexPage = () => (
   <Layout>
     <SEO title="" />
-    <ListItem title="test" />
+    <ListItem title="제목 1" content="부제목" pageName="test" />
+    <ListItem title="제목 1" content="부제목" pageName="test" />
+    <ListItem title="제목 1" content="부제목" pageName="test" />
+    <ListItem title="제목 1" content="부제목" pageName="test" />
+    <ListItem title="제목 1" content="부제목" pageName="test" />
+    <ListItem title="제목 1" content="부제목" pageName="test" />
+    <ListItem title="제목 1" content="부제목" pageName="test" />
+    <ListItem title="제목 1" content="부제목" pageName="test" />
+    <ListItem title="제목 1" content="부제목" pageName="test" />
+    <ListItem title="제목 1" content="부제목" pageName="test" />
+    <ListItem title="제목 1" content="부제목" pageName="test" />
+    <ListItem title="제목 1" content="부제목" pageName="test" />
+    <ListItem title="제목 1" content="부제목" pageName="test" />
   </Layout>
 );
 
