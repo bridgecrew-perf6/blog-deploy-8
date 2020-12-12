@@ -69,7 +69,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image:height`,
-          content: "630",
+          content: "627",
         },
         {
           name: `twitter:card`,

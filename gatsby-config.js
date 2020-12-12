@@ -3,7 +3,7 @@ module.exports = {
     title: `suhjinyong`,
     description: `서진용 블로그.`,
     author: `@doublejbs`,
-    image: `/images/ogimage.png`,
+    image: `/images/ogimage.jpeg`,
     url: `https://www.suhjinyong.com`,
   },
   plugins: [
