@@ -20,6 +20,7 @@ function SEO({ description, lang, meta, title }) {
             description
             author
             image
+            url
           }
         }
       }
@@ -28,7 +29,7 @@ function SEO({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description;
   const defaultTitle = site.siteMetadata?.title;
-  const { image } = site.siteMetadata;
+  const { image, url } = site.siteMetadata;
 
   return (
     <Helmet
@@ -56,7 +57,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: `https://suhjinyong.com${image}`,
+          content: `${url}${image}`,
         },
         {
           name: `twitter:card`,

@@ -4,6 +4,7 @@ module.exports = {
     description: `서진용 블로그.`,
     author: `@doublejbs`,
     image: `/ogimage.png`,
+    url: `https://suhjinyong.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
