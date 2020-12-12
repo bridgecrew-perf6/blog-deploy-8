@@ -27,9 +27,7 @@ const Header = ({ siteTitle }) => (
         >
           <div style={{ display: "flex" }}>
             suh
-            <div className="blink_dot" style={{ color: "green" }}>
-              .
-            </div>
+            <div className="blink_dot">.</div>
             jinyong
           </div>
         </Link>
