@@ -3,8 +3,8 @@ module.exports = {
     title: `suhjinyong`,
     description: `서진용 블로그.`,
     author: `@doublejbs`,
-    image: `/ogimage.png`,
-    url: `https://suhjinyong.com`,
+    image: `/images/ogimage.png`,
+    url: `https://www.suhjinyong.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
