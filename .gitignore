@@ -1,5 +1,5 @@
-node_modules
 .cache/*
+node_modules/*
 src/.DS_Store
-*.state
-.cache/caches/gatsby-transformer-sharp/diskstore-7050b51e0d67ecc2d5eb009947ab4e49.json
+
+

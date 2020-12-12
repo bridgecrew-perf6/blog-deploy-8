@@ -7,7 +7,7 @@ import ListItem from "./components/listItem";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="" />
     <ListItem title="test" />
   </Layout>
 );
