@@ -614,6 +614,7 @@ pre tt:after {
 
 .blink_dot {
   animation: blinker 1s linear infinite;
+  -webkit-animation: blinker 1s linear infinite;
 }
 
 @keyframes blinker {
