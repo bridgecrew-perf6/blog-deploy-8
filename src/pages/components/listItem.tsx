@@ -1,5 +1,5 @@
-import { Link } from "gatsby"
-import React from "react"
+import { Link } from "gatsby";
+import React from "react";
 
 const ListItem = ({ title }: { title: string }) => (
   <Link to="/using-typescript/" style={{ textDecoration: "none" }}>
@@ -7,6 +7,6 @@ const ListItem = ({ title }: { title: string }) => (
       {/* {title} */}
     </div>
   </Link>
-)
+);
 
-export default ListItem
+export default ListItem;
