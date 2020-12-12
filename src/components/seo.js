@@ -60,6 +60,10 @@ function SEO({ description, lang, meta, title }) {
           content: `${url}${image}`,
         },
         {
+          property: `og:image:type`,
+          content: "image/png",
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
