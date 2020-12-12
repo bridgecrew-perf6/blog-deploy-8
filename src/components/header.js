@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
             fontWeight: 500,
           }}
         >
-          <div style={{ display: "flex" }}>
+          <div className="title" style={{ display: "flex" }}>
             suh
             <div className="blink_dot">.</div>
             jinyong
